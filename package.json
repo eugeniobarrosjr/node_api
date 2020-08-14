@@ -4,6 +4,7 @@
   "description": "node_api",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,15 +13,20 @@
   },
   "keywords": [],
   "author": "Eugênio Barros <eugenio.barros.jr@gmail.com>",
-  "license": "“MIT”",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/eugeniobarrosjr/node_api/issues"
   },
   "homepage": "https://github.com/eugeniobarrosjr/node_api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
   }
 }
